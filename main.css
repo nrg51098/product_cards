@@ -39,14 +39,13 @@ footer{
 
 .title{
     text-align: center;
+    font-weight: bold;
+    border: 2px solid lightblue
 }
 .description{
     text-align: justify;
 }
 
-header{
-    font-weight: bold;
-}
 
 .specs{
     padding-left: 10%;
@@ -63,6 +62,16 @@ header{
 
 .section2, .section3 {
     padding-left: 3%;
+    font-weight: bold;
 } 
 
+.section1{
+    position: relative;
+}
+
+.soldout {
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+}
 
